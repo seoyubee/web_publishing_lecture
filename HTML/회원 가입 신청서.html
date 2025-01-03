@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>회원 가입 신청서</title>
+    
+  </head>
+  <body>
+    <h1>회원 가입을 환영합니다^^</h1>
+        <fieldset>
+          <legend>사용자 정보</legend>
+          <ul>
+            <li><label>아이디 : <input name="id" type="text" size="19"></label></li>
+            <li><label>이메일 : <input name="email" type="email" size="19"></label></li>
+            <li><label for ="user-pw">비밀번호 : <input name="pwd" type="password" id="user-pw" size="17"></label></li>
+            <li><label for ="user-pw"><input name="pwd" type="password" id="user-pw" size="17"></label></li>
+            <li><label for ="sign-up-path">가입 경로</label>
+            <select id="sign-up-path">
+            <option value="blog" selected>블로그</option>
+            <option value="search">검색</option>
+            <option value="sns">SNS</option>
+            <option value="etc">기타</option>
+            </select>
+            </li>
+            <li><label for="memo">메모</label>
+    <textarea id="memo" cols="40" rows="4"></textarea></li>
+          </ul>
+          
+        </fieldset>
+        <legend>이벤트와 새로운 소식</legend>
+        <label><input type="radio" name="event" value="event">메일 수신</label>
+        <label><input type="radio" name="event" value="event">메일 수신 안 함</label>
+        <p></p>
+        <label><input type="button" value="가입하기"></label>
+        <label><input type="button" value="취소"></label>
+        
+      </fieldset>
+    </form>
+  </body>
+</html>
