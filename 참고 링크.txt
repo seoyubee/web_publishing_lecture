@@ -1,0 +1,6 @@
+[웹 폰트]
+https://noonnu.cc/
+https://fonts.google.com/
+
+[RGB 색상 표]
+https://www.w3schools.com/colors/colors_names.asp
