@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관심 세션 선택</title>
+  <style>
+    p {
+      margin-top: 80px;
+      text-shadow: 10px;
+      background-color: #0c3268;
+      color: rgb(243, 243, 243);
+      text-align: center;
+      width: 400px;
+    }
+
+    strong {
+      font-size: larger;
+      font-weight: bolder;
+      color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    var session = prompt("관심 세션을 선택해주세요. 1-마케팅 2-개발 3-디자인");
+    var res;
+    switch (session) {
+      case '1':
+      case "마케팅":
+        document.write("<p> 마케팅 세션은 <strong>201호</strong>에서 진행됩니다.</p>");
+        break;
+      case '2':
+      case "개발":
+        document.write("<p>개발 세션은<strong>203호</strong>에서 진행됩니다.</p>");
+        break;
+      case '3':
+      case "디자인":
+        document.write("<p>디자인 세션은 <strong>205호</strong>에서 진행됩니다.</p>");
+        break;
+      case null:
+        alert("입력이 취소됨");
+        break;
+      default:
+        alert("알 수 없는 문제 발생");
+        break;
+    }
+  </script>
+</body>
+
+</html>
